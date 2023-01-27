@@ -1,5 +1,5 @@
 -   id: plantuml-docker
     name: Render .plantuml files
     language: docker_image
-    files: '.*\\.puml'
+    files: '.*\.puml'
     entry: ghcr.io/plantuml/plantuml:latest
